@@ -1,0 +1,16 @@
+rewrite_rules:
+  compression:
+    policy: "Aggressively compress sentences to increase information density."
+    rules:
+      - "Long translated-Chinese sentence -> Short native academic sentence."
+      - "Remove filler words and repetitive phrases."
+  logic:
+    policy: "Preserve scientific logic and mathematical consistency."
+    rules:
+      - "Never alter equations or variable symbols."
+      - "Maintain the causal chain of arguments."
+  tone:
+    policy: "Adopt a native researcher tone, not an AI assistant tone."
+    rules:
+      - "Avoid promotional language (e.g., 'remarkable progress')."
+      - "Use active voice where it adds clarity and directness."

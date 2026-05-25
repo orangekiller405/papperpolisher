@@ -1,0 +1,15 @@
+banned_patterns:
+  - robustness
+  - effectiveness
+  - capability
+  - framework
+  - leverage
+  - comprehensive
+  - significantly
+  - jointly
+  - paradigm
+  - state-of-the-art (use SOTA sparingly)
+  - proposed (use 'our' or 'this' where possible)
+  - demonstrate (use 'show' or 'reveal')
+  - various (too generic)
+  - novel (show novelty through logic, don't just say it)
